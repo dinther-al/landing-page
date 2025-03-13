@@ -1,0 +1,29 @@
+Reset & Global Styles * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #100123;
+    --secondary-color: #007bff;
+    --text-color: #333;
+    --bg-light: #f8f9fa;
+    --btn-hover: #0056b3;
+    --border-radius: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-light);
+    color: var(--text-color);
+}
+
+/* Layout */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2px auto;
+    padding: 1rem;
+}
